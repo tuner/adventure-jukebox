@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+
+body > * {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+main {
+    display: block;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px 40px;
+    background-color: #444;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+#game-list {
+    display: block;
+    padding: 0;
+    margin: 0 20px;
+}
+
+#game-list li {
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+}
+
+#game-list a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #EEE;
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#game-list a:hover {
+    background-color: #E8E8E8;
+}
+
+#game-list .title {
+    font-size: 18px;
+}
+
+#game-list span {
+    display: block;
+}
+
+pre {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+
+    font-family: 'Inconsolata', Monospace;
+    font-size: 15px;
+
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+}
+
+#location {
+
+}
+
+#response {
+   border-top: 1px dashed black;
+}
+
+#commandForm {
+    padding: 10px 40px;
+    background-color: #EEE
+}
+
+pre.complete {
+    color: #70b85d;
+}
+
+pre.incomplete {
+    color: #c64033;
+}
+
+#runnerForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 13px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
