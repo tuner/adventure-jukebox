@@ -19,7 +19,8 @@ Feel free to fork this project at GitHub!
 
 ### An example of a metadata file ###
 
-```gameClass=fi.karilavikka.Adventure
+```
+gameClass=fi.karilavikka.Adventure
 title=Tehtävän palautus
 authors=Kari Lavikka
 year=2014
@@ -27,7 +28,8 @@ year=2014
 
 ### An example of a jar archive file layout ###
 
-```/metadata.properties
+```
+/metadata.properties
 /o1/adventure/Game.class
 /fi/karilavikka/Adventure.class
 /fi/karilavikka/Other.class
