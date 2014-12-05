@@ -1,7 +1,8 @@
 # Adventure Jukebox #
 
-Adventure Jukebox is a web interface for text based adventure games. It was inspired by an assignment on
-Aalto University's programming course.
+Adventure Jukebox is a web interface for text based adventure games. It was inspired by an
+[assignment](https://greengoblin.cs.hut.fi/o1_s2014/course/k10/osa02.html) on Aalto University's
+programming course.
 
 This application allows users to play multiple games that are packaged into separate jar archives. This prevents
 collisions in package names etc...
